@@ -1,0 +1,6 @@
+{
+  "name": "KIMS GEEKED GAMING HUB",
+  "description": "Official independent game studio and development platform created by Simon Kimutai Ronoh Yegon from Kenya 🇰🇪.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

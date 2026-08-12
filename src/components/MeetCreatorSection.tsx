@@ -100,3 +100,10 @@ export const MeetCreatorSection: React.FC = () => {
     </section>
   );
 };
+<section id="about" className="py-20 px-10 about-section">
+  <img src="./simon.png" alt="Simon Kimutai Ronoh Yegon" className="creator-photo" />
+  <div>
+    <h2>Meet the Creator</h2>
+    <p>Simon Kimutai Ronoh Yegon, Indie Developer from Kenya...</p>
+  </div>
+</section>

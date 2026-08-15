@@ -51,12 +51,13 @@ export const GamesSection: React.FC<Props> = ({ games, onSelectGame, onPlayDirec
         <div>
           <div className="text-xs font-mono font-semibold uppercase tracking-[0.25em] text-cyan-400 mb-1 flex items-center space-x-2">
             <Gamepad2 className="w-4 h-4 text-cyan-400" />
-            <span>STUDIO CATALOGUE</span>
+            <span>INDIE GAME COLLECTION</span>
           </div>
           <h2 className="text-3xl sm:text-5xl font-extrabold font-mono text-white tracking-tight flex items-center space-x-3">
-            <span>MY GAMES</span>
+            <span>Geeked Gaming Hub – My Games</span>
             <span className="text-cyan-400">🎮</span>
           </h2>
+          <p className="text-neutral-400 text-sm mt-2 font-sans">Browse free indie games including Nairobi Cyberpunk 2088, Geeked Racer, and Rift Valley Legends</p>
         </div>
 
         {/* SEARCH BAR */}

@@ -14,14 +14,14 @@ export const UpdatesSection: React.FC<Props> = ({ updates }) => {
       <div className="mb-12 border-b border-neutral-800 pb-6">
         <div className="text-xs font-mono font-semibold uppercase tracking-[0.25em] text-cyan-400 mb-1 flex items-center space-x-2">
           <Wrench className="w-4 h-4 text-cyan-400" />
-          <span>DEV LOG & ANNOUNCEMENTS</span>
+          <span>LATEST NEWS & ANNOUNCEMENTS</span>
         </div>
         <h2 className="text-3xl sm:text-5xl font-extrabold font-mono text-white tracking-tight flex items-center space-x-3">
-          <span>DEVELOPMENT UPDATES</span>
+          <span>KIMS Gaming Hub – Latest Updates</span>
           <span className="text-cyan-400">🛠️</span>
         </h2>
         <p className="text-neutral-400 font-sans mt-2 max-w-2xl text-sm sm:text-base">
-          Behind-the-scenes logs, technical breakthroughs, graphics engine upgrades, and release announcements from Simon Kimutai Ronoh Yegon.
+          Development news, technical updates, graphics engine improvements, and game release announcements from Simon Kimutai Ronoh Yegon. Follow our indie game development journey.
         </p>
       </div>
 

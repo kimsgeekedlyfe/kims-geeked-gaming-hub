@@ -53,6 +53,10 @@ export const HeroSection: React.FC<HeroProps> = ({ onExploreGames, onShareIdea, 
           <p className="max-w-3xl mx-auto text-base sm:text-lg md:text-xl text-neutral-300 font-sans leading-relaxed pt-2">
             Welcome to <strong className="text-cyan-300">KIMS GEEKED GAMING HUB</strong> — an independent game-development platform created by <strong className="text-purple-300">Simon Kimutai Ronoh Yegon</strong> from Kenya. Discover my games, follow my development journey, and share ideas that could inspire the next project.
           </p>
+          
+          <p className="max-w-3xl mx-auto text-sm sm:text-base text-neutral-400 font-sans leading-relaxed pt-4">
+            Browse our <button onClick={onExploreGames} className="text-cyan-400 hover:text-cyan-300 underline cursor-pointer font-semibold">games collection featuring unique indie titles</button> or <button onClick={onShareIdea} className="text-purple-400 hover:text-purple-300 underline cursor-pointer font-semibold">view our latest gaming updates and announcements</button>. Stay connected with game development news from Kenya's gaming community.
+          </p>
         </motion.div>
 
         {/* CTA BUTTONS */}

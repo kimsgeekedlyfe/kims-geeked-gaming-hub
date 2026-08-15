@@ -1,29 +1,67 @@
 @import "tailwindcss";
+
+/* Global Mobile-Friendly Styles */
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* Ensure all images are responsive */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Creator Photo Styling - Optimized */
 .creator-photo {
-  width: 250px;
-  max-width: 100%;   /* responsive */
+  width: 100%;
+  max-width: 200px;
+  height: auto;
   border-radius: 10px;
   border: 3px solid #00ffff; /* neon cyan */
-  box-shadow: 0 0 20px #ff00ff; /* magenta glow */
+  box-shadow: 0 0 15px #0ff; /* neon glow */
   margin: 20px auto;
   display: block;
 }
+
+/* About Section - Responsive Layout */
 .about-section {
   display: flex;
   align-items: center;
   gap: 20px;
   justify-content: center;
-  padding: 40px;
-}
-
-.creator-photo {
-  width: 200px;
-  height: auto;
-  border-radius: 10px;
-  box-shadow: 0 0 15px #0ff; /* neon glow */
+  padding: 20px 16px;
+  flex-wrap: wrap;
 }
 
 /* Mobile responsiveness */
+@media (max-width: 640px) {
+  .about-section {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px 12px;
+    gap: 16px;
+  }
+
+  .creator-photo {
+    margin-bottom: 16px;
+    max-width: 160px;
+  }
+
+  /* Reduce padding on small screens */
+  body {
+    font-size: 16px;
+  }
+}
+
 @media (max-width: 768px) {
   .about-section {
     flex-direction: column;
@@ -32,6 +70,18 @@
 
   .creator-photo {
     margin-bottom: 20px;
+    max-width: 180px;
+  }
+}
+
+/* Tablet and up */
+@media (min-width: 769px) {
+  .about-section {
+    padding: 40px;
+  }
+
+  .creator-photo {
+    max-width: 250px;
   }
 }
 

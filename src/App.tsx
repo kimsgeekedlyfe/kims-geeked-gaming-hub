@@ -247,7 +247,7 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen bg-neutral-950 text-white font-sans selection:bg-cyan-500 selection:text-black">
+    <div className="min-h-screen w-screen overflow-x-hidden bg-neutral-950 text-white font-sans selection:bg-cyan-500 selection:text-black">
       {/* ANNOUNCEMENT TOP BANNER */}
       <AnnouncementBanner
         text={settings.announcementBanner}
